@@ -3,7 +3,7 @@
  const express = require('express');
  const router = express.Router();
  
- 
+ //handling incoming get request .comment for auto restart server using npm install --save-dev nodemon 
  router.get('/', (req, res, next) =>{
 	 
 	 res.status(200).json({
